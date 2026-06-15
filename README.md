@@ -1,31 +1,45 @@
-# Simple Microprocessor Design
+#Simple Microprocessor Design
 
-## Overview
-A simple microprocessor architecture designed and developed to demonstrate core CPU operations. It covers the instruction cycle (fetch, decode, execute) and integrates fundamental components such as the ALU, control unit, registers, and memory interface using Verilog and Logisim.
+This project implements a simple microprocessor architecture using Verilog HDL and Logisim. The design demonstrates core CPU functionality including instruction fetch, decode, and execute cycles along with ALU operations, control logic, registers, and basic memory interaction.
 
-## Features
+##Overview
+
+1) Implements a basic CPU architecture with instruction cycle support.
+2) Handles instruction decoding and execution through a control unit.
+3) Includes ALU for arithmetic and logical operations.
+4) Designed using Verilog and validated through Logisim simulation.
+
+##Features
+
 1) Custom instruction set architecture (ISA)
-2) Register-based data processing
+2) Register-based processing unit
 3) ALU supporting arithmetic and logical operations
-4) Control unit for instruction decoding and execution flow
-5) Basic memory handling for instructions and data
+4) Control unit for instruction sequencing and decoding
+5) Basic memory interaction for instructions and data
 
-## Project Files
-1) Verilog source code (.V)
-2) Logisim circuit design (.circ)
-3) Project documentation report (PDF)
+##Applications
 
-## Tools Used
-1) Modelsim
-2) Logisim Evolution
+1) Digital system design learning and demonstration
+2) Computer architecture concepts (CPU design, datapath, control unit)
+3) Verilog HDL-based hardware modeling
+4) Logisim-based circuit verification
 
-## How to Run
-1) Open the '.circ' file using Logisim Evolution to view and simulate the design
-2) Compile and simulate Verilog files using tools such as ModelSim or Icarus Verilog
-3) Refer to the project report for detailed design explanation
+##Files Included
 
-## Author
-Muhammad Ibrahim
+1) Verilog – Verilog HDL source code for CPU modules (.V)
+2) Logisim – Logisim circuit design files (.circ)
+3) Report – Project documentation report (PDF)
 
-## License
-This project is released under the MIT License.
+##Instructions
+
+1) Open the Logisim '.circ' file using Logisim Evolution to view the circuit design.
+2) Compile and simulate the Verilog files using any HDL simulator (e.g., ModelSim or Icarus Verilog).
+3) Refer to the project report for detailed architecture explanation and design flow.
+
+##Acknowledgements
+
+Developed by Muhammad Ibrahim.
+
+##License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
