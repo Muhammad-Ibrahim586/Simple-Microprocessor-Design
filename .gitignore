@@ -1,0 +1,13 @@
+*.vcd
+*.vvp
+*.out
+*.o
+
+*.autosave
+*.circ~
+
+.vscode/
+.idea/
+
+.DS_Store
+Thumbs.db
